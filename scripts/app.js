@@ -43,6 +43,7 @@ class CalendarWeekdays {
         "data-value": `${this.date.currentDate.getDate() ?? "01"}-${
           this.date.currentMonth
         }-${this.date.currentYear}`,
+        "data-current-month": true,
       }),
       nextMonthElement,
     ].forEach((el) => this.calendarHeader.appendChild(el));

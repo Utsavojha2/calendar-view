@@ -181,6 +181,10 @@ body,
   margin: auto;
 }
 
+[data-current-month="true"] {
+  font-size: 50px;
+}
+
 [data-today] {
   background-color: rgb(192, 185, 185);
   border-radius: 50%;
