@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="app-content">
+        <div class="content-container">
+          <div class="content-header">
+            <h2 class="plain uppercase">03 - Calendar</h2>
+          </div>
+          <div class="content-body-wrapper">
+            <div class="content-body">
+              <div class="calendar-sidebar left">
+                <div class="calendar-sidebar-wrapper">
+                  <div class="calendar-sidebar-header">
+                    <div class="calendar-sidebar-avatar">
+                      <img
+                        class="avatar"
+                        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                      />
+                    </div>
+                    <div class="calendar-sidebar-user">
+                      <h3 class="danger bold uppercase">Sajan Raj.</h3>
+                      <p class="calendar-sidebar-subtitle danger">Engineer</p>
+                    </div>
+                  </div>
+                  <div class="calendar-sidebar-body">
+                    <div class="calendar-events-wrapper">
+                      <div class="calendar-event">
+                        <h3 class="primary bold">9:00 AM</h3>
+                        <p class="calendar-event-description danger">
+                          Meeting with Ralph
+                        </p>
+                      </div>
+                      <div class="calendar-event">
+                        <h3 class="primary bold">10:00 AM</h3>
+                        <p class="calendar-event-description danger">
+                          Brunch With Kim
+                        </p>
+                      </div>
+                      <div class="calendar-event">
+                        <h3 class="primary bold">11:00 AM</h3>
+                        <p class="calendar-event-description danger">
+                          Grab groceries
+                        </p>
+                      </div>
+                    </div>
+                    <div class="calendar-sidebar-footer">
+                      <i
+                        class="fa fa-cog setting-icon danger"
+                        aria-hidden="true"
+                      ></i>
+                      <div class="plus-icon danger">+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calendar-view">
+                <div class="calendar">
+                  <div class="calendar-header"></div>
+                  <div class="calendar-weekdays"></div>
+                </div>
+              </div>
+              <div class="calendar-sidebar right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/date.js"></script>
+  <script src="./scripts/months.js"></script>
+  <script src="./scripts/weekdays.js"></script>
+</html>
